@@ -60,6 +60,7 @@ python3 drizzle.py --pokemon pikachu,eevee,ditto
 
 # Combine both
 python3 drizzle.py --pokemon bulbasaur,ivysaur,venusaur --spot-disappear
+```
 
 ## 🎮 Controls
 
