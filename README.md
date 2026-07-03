@@ -30,12 +30,36 @@ Just a fun piece of **terminal eye‑candy** to run in a spare window.
 
 ```bash
 # On Linux/macOS/WSL – Python’s curses is built‑in
+pip install requests
 python3 drizzle.py
 
 # On Windows – install windows-curses first
 pip install windows-curses
+pip install requests
 python drizzle.py
 ```
+
+### Command‑line options
+
+| Flag | Description |
+|------|-------------|
+| `--spot-disappear` | Use the **legacy** disintegration effect – pixels fade in place instead of falling off as drops. |
+| `--pokemon NAME1,NAME2,...` | A comma‑separated list of Pokémon names (e.g., `pikachu,charizard,snorlax`) to cycle through. The script will fetch these specific sprites in order, instead of a random one each time. |
+
+**Examples:**
+
+```bash
+# Random Pokémon each cycle (default)
+python3 drizzle.py
+
+# Old fade‑in‑place disintegration
+python3 drizzle.py --spot-disappear
+
+# Cycle through your favourite Pokémon
+python3 drizzle.py --pokemon pikachu,eevee,ditto
+
+# Combine both
+python3 drizzle.py --pokemon bulbasaur,ivysaur,venusaur --spot-disappear
 
 ## 🎮 Controls
 
@@ -65,9 +89,18 @@ python drizzle.py
 
 ## 🛠️ Technical details
 
-- Written in pure Python, using only the standard library (`curses`, `urllib`, `threading`).
+- Written in pure Python, using **`curses`** and the **`requests`** library (for fast, persistent HTTP connections).
 - Requires a terminal that supports at least 256 colours (falls back to a 6‑colour palette if not).
 - Resizes gracefully when you change the window size.
+
+### Dependencies
+
+| Package | Reason |
+|---------|--------|
+| `requests` | For efficient, connection‑reusing HTTP requests (much faster than `urllib`). |
+| `curses` / `windows-curses` | Terminal UI (built‑in on Unix, install on Windows). |
+
+Install `requests` with:
 
 ---
 
