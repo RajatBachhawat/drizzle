@@ -1,10 +1,5 @@
 # 🖥️ drizzle - Terminal Binary Rain Pokémon Edition
 
-<video width="100%" controls>
-  <source src="demo/multi-pkmn-rain.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
-
 Turn your command line into a **Matrix‑style** rain of `0`s and `1`s — which periodically assembles into a random Pokémon sprite (colours and all), holds for a few seconds, then dissolves back into the downpour.
 
 Just a fun piece of **terminal eye‑candy** to run in a spare window.
@@ -41,11 +36,6 @@ python drizzle.py
 ```
 
 ## 🎮 Controls
-
-<video width="100%" controls>
-  <source src="demo/machop.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
 
 | Key          | Action |
 |--------------|--------|
