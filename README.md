@@ -109,7 +109,6 @@ Install `requests` with:
 
 - Pokémon sprites from **[pkmn.li](https://pkmn.li)** – an awesome ANSI‑art API.
 - Inspired by the classic *Matrix* digital rain effect.
-- Vibe-coded in ~2 hours for the joy of it.
 
 ---
 
