@@ -1,6 +1,6 @@
 # 🖥️ drizzle - Terminal Binary Rain Pokémon Edition
 
-<img width="800" height="450" alt="ezgif-8ecc727d76bbac5e" src="https://github.com/user-attachments/assets/0cbe5399-aa0e-42b2-9739-f600220031ae" />
+<img width="800" height="450" alt="ezgif-89756bc2f993a1b3" src="https://github.com/user-attachments/assets/c3e725ef-2ed5-461a-b4e9-3a86807bf383" />
 
 Turn your command line into a **Matrix‑style** rain of `0`s and `1`s — which periodically assembles into a random Pokémon sprite (colours and all), holds for a few seconds, then dissolves back into the downpour.
 
